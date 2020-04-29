@@ -64,6 +64,11 @@ nav li a:hover,
     color: rgb(1, 194, 253);
 }
 
+nav li a:visited,
+.info a:hover {
+    color: rgb(0, 39, 75);
+}
+
 .profile-image {
     width: 65%;
     padding: 2em;
@@ -96,11 +101,12 @@ img {
 }
 
 #skills-header {
-    margin-top: 2em;
+    padding-top: 1em;
 }
 
 .icon-div {
     margin: 2em 0;
+    margin-top: 0;
 }
 
 .icons {
@@ -200,6 +206,7 @@ hr {
 
     #skills-header {
         margin-top:0;
+        clear: both;
     }
 
     .skills {

@@ -48,10 +48,6 @@ footer {
     padding: 1em;
 }
 
-nav ul {
-    padding: 0 1em;
-}
-
 nav li {
     list-style-type: none;
     background-color: rgb(240, 240, 240);
@@ -138,13 +134,11 @@ img {
 .float-left {
     float: left;
     clear: both;
-    margin-left: 1em;
     margin-bottom: 1em;
 }
 
 .float-right {
     float: right;
-    margin-right: 1em;
     margin-bottom: 1em;
 }
 
@@ -197,6 +191,7 @@ hr {
     p.introduction {
         padding-top: 32px;
         font-size: 1.2em;
+        text-align: left;
     }
 
     /* Main styling */
@@ -247,7 +242,7 @@ hr {
     }
 
     .footer-name {
-        padding: 10px;
+        padding: 10px 10px 10px 0;
         margin-bottom: 0;
     }
 
@@ -259,7 +254,7 @@ hr {
     .footer-nav ul li{
         display: inline-block;
         background: none;
-        padding: 10px;
+        padding: 10px 0 10px 10px;
         margin-bottom: 4em;
     }
 }

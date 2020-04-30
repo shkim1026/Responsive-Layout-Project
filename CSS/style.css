@@ -48,6 +48,11 @@ footer {
     padding: 1em;
 }
 
+.main-nav ul {
+    width: 90%;
+    margin: auto;
+}
+
 nav li {
     list-style-type: none;
     background-color: rgb(240, 240, 240);
@@ -164,6 +169,11 @@ hr {
     margin-bottom: 1em; 
 }
 
+.bottom-nav {
+    width: 90%;
+    margin: auto;
+}
+
 .footer-nav {
     display: none;
 }
@@ -278,6 +288,11 @@ hr {
         padding: 32px;
     }
 
+    .main-nav ul{
+        width: 100%;
+        margin: auto;
+    }
+
     .clear {
         clear: both;
         font-size: 1.5em;
@@ -325,7 +340,7 @@ hr {
     }
 
     .bottom-nav {
-        width: 93%;
+        width: 90%;
         margin: 0 auto;
     }
 }

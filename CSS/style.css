@@ -101,7 +101,7 @@ nav li a:hover,
 
 img {
     width: 100%;
-    margin-bottom: 2em;
+    padding-bottom: 20px;
 }
 
 #skills-header {
@@ -200,6 +200,7 @@ hr {
 
     p.introduction {
         padding-top: 32px;
+        padding: 32px 1em 2em 2em;
         font-size: 1.2em;
         text-align: left;
     }
@@ -293,10 +294,13 @@ hr {
         margin: auto;
     }
 
+    .main-nav ul li {
+        margin-right: 13px;
+    }
+
     .clear {
         clear: both;
         font-size: 1.5em;
-        text-align: left;
     }
 
     p.introduction {

@@ -1,2 +1,2 @@
 # Responsive-Layout-Project
- Mobile first layout project
+ Mobile first responsive layout project
